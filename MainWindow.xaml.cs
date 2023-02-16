@@ -24,5 +24,10 @@ namespace WPL1
         {
             InitializeComponent();
         }
+
+        private void btnTekst_Click(object sender, RoutedEventArgs e)
+        {
+            lblTekst.Content = "Hello World";
+        }
     }
 }
