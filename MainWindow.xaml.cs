@@ -29,5 +29,13 @@ namespace WPL1
         {
             lblTekst.Content = "Hello World";
         }
+        int teller = 0;
+        private void bntTeller_Click(object sender, RoutedEventArgs e)
+        {
+            
+            lblTeller.Content = teller;
+            teller++;
+
+        }
     }
 }
